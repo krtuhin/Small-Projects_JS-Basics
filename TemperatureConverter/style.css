@@ -1,0 +1,35 @@
+body {
+  padding: 70px 200px;
+}
+h1 {
+  text-align: center;
+  color: #1abc9c;
+}
+#container {
+  background-color: #1abc9c;
+  text-align: center;
+  padding: 50px;
+  border-radius: 3rem;
+}
+.input-div {
+  display: inline-block;
+}
+#eql {
+  display: inline;
+  color: white;
+}
+.inp {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid cornsilk;
+}
+label {
+  font-size: 25px;
+  font-weight: 500;
+  color: cornsilk;
+}
