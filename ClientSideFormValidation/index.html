@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- heading -->
+      <h1>Login</h1>
+
+      <!-- form -->
+      <form action="" onsubmit="return validateForm()">
+        <!-- username field -->
+        <input type="text" id="username" class="inp" placeholder="Username" />
+        <br />
+        <!-- error message -->
+        <p id="user-error" class="error"></p>
+
+        <!-- password field -->
+        <input
+          type="password"
+          id="password"
+          class="inp"
+          placeholder="Password"
+        />
+        <br />
+        <!-- error message -->
+        <p id="pass-error" class="error"></p>
+
+        <!-- submit button -->
+        <input type="submit" id="btn" class="inp" />
+      </form>
+      <!-- end form -->
+    </div>
+
+    <!-- js file -->
+    <script src="script.js"></script>
+  </body>
+</html>
